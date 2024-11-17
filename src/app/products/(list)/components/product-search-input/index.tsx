@@ -10,6 +10,10 @@ export function ProductSearchInput({
   className,
   ...props
 }: HTMLAttributes<HTMLDivElement>) {
+  /**
+   * term: 검색어
+   * handleTermChange: 검색어 변경 핸들러
+   */
   const { term, handleTermChange } = useProductsSearchParams()
 
   return (
